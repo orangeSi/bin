@@ -1,0 +1,23 @@
+if [ "$4" == "" ]; 
+then
+      echo "$0 
+      <wh/sz/hk> 
+      <file/dir> 
+      <A file or directory> 
+      <B directory> will copy A to B"
+      exit
+fi
+node=$1
+file_type=$2
+A=`echo $3|sed 's/\/$//'`
+B=$4
+                     
+if [ "$file_type" == "file" ];
+then
+     /usr/bin/lftp -e "ls;lcd $B;mget $A && echo done;exit" ftp://sikaiwei:qiutufF6@$node-ftp
+else
+     /usr/bin/lftp -e "ls;lcd $B;mirror $A && echo done;exit" ftp://sikaiwei:qiutufF6@$node-ftp
+                               
+fi
+                        
+

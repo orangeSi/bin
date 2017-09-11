@@ -1,0 +1,349 @@
+####################	Softeware Path	########################
+upload		= /ifshk4/BC_PUB/biosoft/bin/upload.sh.x
+CirecosPerl	= /ifshk7/BC_RD/USER/liuchichuan/software/perl/bin/perl
+CircosPath	= /ifshk7/BC_PS/sunxiaohui/Module/RNA_Prokaryotic_RNAref/Module/CircleFig/CircleFig_Circos/bin/circos
+BlastBin        = /ifshk4/BC_PUB/biosoft/pipe/bc_paap/03.Soft_ALL/blast-2.2.26/bin/
+################################### FilterDataConfigParamTag
+############ Filter Data Softeware Path ##############
+Rscript         = /ifshk4/BC_PUB/biosoft/PIPE_RD/Package/R-3.1.1/bin/Rscript
+convert         = /ifshk7/BC_PS/sikaiwei/bin/convert
+################################### FilterDataConfigParamTag
+
+################################### AssemblyConfigParamTag
+############ Assembly Softeware Path ##############
+#Kmer
+convert = /ifshk7/BC_PS/sikaiwei/bin/convert
+
+SOAPdenovo-63 = /ifshk4/BC_PUB/biosoft/pipe/bc_mg/BAC_Denovo/BAC_pipeline_1.1.1/Assembly/Assembly_V2.4/lib/SOAPdenovo-V2.04/SOAPdenovo-63mer
+SOAPdenovo-127 = /ifshk4/BC_PUB/biosoft/pipe/bc_mg/BAC_Denovo/BAC_pipeline_1.1.1/Assembly/Assembly_V2.4/lib/SOAPdenovo-V2.04/SOAPdenovo-127mer
+Spades = /ifshk7/BC_PS/sikaiwei/assembly/spades/SPAdes-3.9.0-Linux/bin/spades.py
+MCG = /ifshk4/BC_PUB/biosoft/pipe/bc_mg/BAC_Complete_Map/MCG_1.0/config
+autoM = /ifshk4/BC_PUB/biosoft/pipe/bc_mg/BAC_Denovo/BAC_pipeline_1.1.1/Assembly/Assembly_V2.4/lib/Lpath/auto_M
+sspace = /ifshk7/BC_PS/sikaiwei/assembly/scaffold/SSPACE-STANDARD-3.0_linux-x86_64/SSPACE_Standard_v3.0.pl
+KGF = /ifshk4/BC_PUB/biosoft/pipe/bc_mg/BAC_Denovo/BAC_pipeline_1.1.1/Assembly/Assembly_V2.4/lib/krskgf_0624_2/krskgf.pl
+gapfiller = /ifshk7/BC_PS/sikaiwei/assembly/fillgap/GapFiller_v1-10_linux-x86_64/GapFiller.pl
+
+#Merger CCS ,CorrectSubreads
+source          = /ifshk4/BC_PUB/biosoft/PIPE_RD/DNA/DNA_Denovo/PacBio/SMRTAnalysis/smrtanalysis/current/etc/setup.sh
+SMRTAnalysisBin	= /ifshk4/BC_PUB/biosoft/PIPE_RD/DNA/DNA_Denovo/PacBio/SMRTAnalysis/smrtanalysis/current/analysis/bin/
+SeqChunker      = /ifshk7/BC_PS/yanglin1/softwares/proovreads/git/proovread/bin/SeqChunker
+perl_5_20_2	= /ifshk7/BC_PS/sikaiwei/perl/perl-5.20.2/bin
+perl_5_10_1	= /ifshk7/BC_PS/sikaiwei/perl/perl-5.20.2/bin
+proovread	= /ifshk7/BC_PS/sikaiwei/assembly/bac_complete/proovreads/git/proovread/bin
+BwaBin		= /ifshk7/BC_PS/yanglin1/softwares/proovreads/git/proovread/bin/../util/bwa/
+ccseq		= /ifshk7/BC_PS/yanglin1/softwares/proovreads/git/proovread/bin/ccseq
+export		= /ifshk7/BC_PS/yanglin1/softwares/proovreads/Log-Log4perl-1.46/lib:/ifshk7/BC_PS/yanglin1/softwares/proovreads/File-Which-1.16/lib/:/ifshk7/BC_PS/yanglin1/softwares/proovreads/git/proovread/lib
+DAZZ_DB		= /ifshk7/BC_PS/sikaiwei/assembly/FALCON/FLALCON-intergrate/DAZZ_DB
+DALIGNER	= /ifshk7/BC_PS/sikaiwei/assembly/FALCON/FLALCON-intergrate/DALIGNER
+activate	= /ifshk7/BC_PS/sikaiwei/assembly/FALCON/FLALCON-intergrate/fc_env/bin/activate
+Canu		= /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/canu-1.4/Linux-amd64/bin/canu
+javeCanu	= /ifshk4/BC_PUB/biosoft/PIPE_RD/Package/java/jre1.8.0_45/bin/java
+PlasmidDatabase	= /ifshk7/BC_PS/yanglin1/Point/Plasmid_analysis/20150323/all.plasmids.fa
+blastn		= /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/blast/ncbi-blast-2.2.29/bin/blastn
+AlgorithmParameters	= /ifshk4/BC_PUB/biosoft/PIPE_RD/DNA/DNA_Denovo/PacBio/SMRTAnalysis/smrtanalysis/current/analysis/etc/algorithm_parameters/2014-09
+#Correct SingeBase SOAPsnpindel
+bwt_builder	= /ifshk4/BC_PUB/biosoft/pipe/bc_mg/FUN_Denovo/Fungi_Pipeline_2.0.0/06.Reseq.Pipeline/lib/soap2/2bwt-builder
+soap		= /ifshk4/BC_PUB/biosoft/pipe/bc_mg/FUN_Denovo/Fungi_Pipeline_2.0.0/06.Reseq.Pipeline/lib/soap2/soap2.21 
+soap_coverage	= /ifshk4/BC_PUB/biosoft/pipe/bc_mg/FUN_Denovo/Fungi_Pipeline_2.0.0/06.Reseq.Pipeline/lib/soap2/soap.coverage
+cover_table	= /ifshk4/BC_PUB/biosoft/pipe/bc_mg/FUN_Denovo/Fungi_Pipeline_2.0.0/06.Reseq.Pipeline/lib/soap2/cover_table.pl
+soap_split	= /ifshk4/BC_PUB/biosoft/pipe/bc_mg/FUN_Denovo/Fungi_Pipeline_2.0.0/06.Reseq.Pipeline/lib/soapsnp/soap_split.pl
+msort		= /ifshk4/BC_PUB/biosoft/pipe/bc_mg/FUN_Denovo/Fungi_Pipeline_2.0.0/06.Reseq.Pipeline/lib/soapsnp/msort
+cycle_soapsnp	= /ifshk4/BC_PUB/biosoft/pipe/bc_mg/FUN_Denovo/Fungi_Pipeline_2.0.0/06.Reseq.Pipeline/lib/soapsnp/cycle_soapsnp.pl
+soapindel	= /ifshk4/BC_PUB/biosoft/pipe/bc_mg/FUN_Denovo/Fungi_Pipeline_2.0.0/06.Reseq.Pipeline/lib/soapInDel/soapInDelV1.08
+#Correct SingeBase GATK
+bwa2		= /ifshk4/BC_PUB/biosoft/PIPE_RD/RNA/RNA_RNAref/RNA_RNAref_version5.0_beta/RNA_module/bin/bwa
+samtools	= /ifshk4/BC_PUB/biosoft/PIPE_RD/Package/samtools-0.1.19/samtools
+java		= /ifshk4/BC_PUB/biosoft/PIPE_RD/RNA/RNA_RNAref/RNA_RNAref_version5.0_beta/RNA_module/bin/java/jre1.6.0_21/bin
+jar_picard	= /ifshk1/BC_SA/PROJECT/background/compute.storage/pipeline/CSAP_WGS_v6.0/bin/picard
+PERL5LIB	= /ifshk4/BC_PUB/biosoft/PIPE_RD/RNA/RNA_RNAref/RNA_RNAref_version5.0_beta/RNA_module/SNP/snp_gatk/lib
+gatk		= /ifshk4/BC_PUB/biosoft/PIPE_RD/RNA/RNA_RNAref/RNA_RNAref_version5.0_beta/RNA_module/bin/gatk
+filt_GATK_allel	= /ifshk4/BC_PUB/biosoft/PIPE_RD/RNA/RNA_RNAref/RNA_RNAref_version5.0_beta/RNA_module/SNP/snp_gatk/bin/filt_GATK_allel.pl
+# Assembly Evaluate 
+CirecosPerl     = /ifshk7/BC_RD/USER/liuchichuan/software/perl/bin/perl
+CircosPath      = /ifshk7/BC_PS/sunxiaohui/Module/RNA_Prokaryotic_RNAref/Module/CircleFig/CircleFig_Circos/bin/circos
+line_diagram	= /ifshk4/BC_PUB/biosoft/pipe/bc_mg/BAC_Denovo/BAC_pipeline_1.1.1/Assembly/Assembly_V1.0/lib/SOAP2/line_diagram.pl
+GC_depth_dis	= /ifshk4/BC_PUB/biosoft/pipe/bc_mg/BAC_Denovo/BAC_pipeline_1.1.1/Assembly/Assembly_V1.0/lib/SOAP2/GC_depth_dis.pl
+rnammer		= /ifshk4/BC_PUB/biosoft/pipe/bc_mg/FUN_Denovo/PGAP-2.0/software/rnammer-1.2/rnammer
+synteny		= /ifshk4/BC_PUB/biosoft/pipe/bc_mg/BAC_Denovo/BAC_pipeline_1.1.1/bin/../Assembly/Assembly_V2.4/lib/synteny/synteny.pl
+BlastBin	= /ifshk4/BC_PUB/biosoft/pipe/bc_paap/03.Soft_ALL/blast-2.2.26/bin/
+RBin		= /ifshk4/BC_PUB/biosoft/PIPE_RD/Package/R-3.1.1/bin
+Rscript		= /ifshk4/BC_PUB/biosoft/PIPE_RD/Package/R-3.1.1/bin/Rscript
+BlatBin		= /ifshk4/BC_PUB/biosoft/PIPE_RD/Package/blat-34/blat
+glimmerBin	= /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/gene_predict_software/glimmer-3.02/bin/
+dnaADatabase	= /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/dnaADatabase/dnaA.uniprot_sprot.fasta.fa.addLength
+################################### AssemblyConfigParamTag
+
+################################### NtConfigParamTag
+Rscript         = /ifshk4/BC_PUB/biosoft/PIPE_RD/Package/R-3.1.1/bin/Rscript
+convert         = /ifshk7/BC_PS/sikaiwei/bin/convert
+BlastBin        = /ifshk4/BC_PUB/biosoft/pipe/bc_paap/03.Soft_ALL/blast-2.2.26/bin/
+SeqChunker      =/ifshk7/BC_PS/yanglin1/softwares/proovreads/git/proovread/bin/SeqChunker
+NtSplitlst      = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/nt/20160219/nt.lst
+NtNames     	= /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/taxid/20160307/names.dmp.short
+NtNodes     	= /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/taxid/20160307/nodes.dmp.short
+GITaxid         = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/taxid/20160307/gi_taxid_nucl.dmp.gz
+################################### NtConfigParamTag
+
+################################### ComponentConfigParamTag
+Rscript			= /ifshk4/BC_PUB/biosoft/PIPE_RD/Package/R-3.1.1/bin/Rscript
+convert                 = /ifshk7/BC_PS/sikaiwei/bin/convert
+fastalength             = ~/fastalength
+glimmer_bin             = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/gene_predict_software/glimmer-3.02/bin/
+#GlimmerHMM              = /opt/blc/genome/biosoft/GlimmerHMM-3.0.1/bin/glimmerhmm_linux
+genemark_bin            = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/gene_predict_software/GeneMark/genemark_suite_linux_64/gmsuite/
+
+RNAmmer         = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/RNAmmer-1.2/rnammer
+tRNAscan_env    = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/tRNAscan-SE/tRNAscan-SE-1.3.1/path.sh
+tRNAscan        = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/tRNAscan-SE/tRNAscan-SE-1.3.1/bin/tRNAscan-SE
+Rfam            = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/Rfam/12.0/
+cmsearch        = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/Infernal/infernal-1.1.1-linux-intel-gcc/bin/cmsearch
+msort           = /ifshk7/BC_PS/sikaiwei/assembly/sort/msort
+blastBindir     = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/blast/ncbi-blast-2.2.29/bin
+
+trf     = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/repeat_software/TRF/trf407b/trf
+repeatmasker    = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/repeat_software/RepeatMasker/RepeatMasker/RepeatMasker
+proteinmasker   = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/repeat_software/RepeatMasker/RepeatMasker/RepeatProteinMask
+RepeatModeler   = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/repeat_software/RepeatModeler
+blat            = /ifshk4/BC_PUB/biosoft/PIPE_RD/Package/blat-34/blat
+gis_database    = /ifshk4/BC_PUB/biosoft/pipe/bc_mg/BAC_Denovo/BAC_pipeline_1.1.1/bin/../10.GIs/database/all_gis_sigi_hmm_nucleotide_rename.fasta
+################################### ComponentConfigParamTag
+
+################################### AnnotationConfigParamTag
+##### 4) Annotation Softeware Path #####
+Rscript         = /ifshk4/BC_PUB/biosoft/PIPE_RD/Package/R-3.1.1/bin/Rscript
+convert         = /ifshk7/BC_PS/sikaiwei/bin/convert
+BlastBin        = /ifshk4/BC_PUB/biosoft/pipe/bc_paap/03.Soft_ALL/blast-2.2.26/bin/
+SeqChunker      = /ifshk7/BC_PS/yanglin1/softwares/proovreads/git/proovread/bin/SeqChunker
+#IPRscan
+#IprscanShell    = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/iprscan/interproscan-5.16-55.0/interproscan.sh
+#IprscanShell	= /ifshk4/BC_PUB/biosoft/PIPE_RD/Package/interproscan-5.11-51.0/interproscan.sh
+IprscanShell	= /ifshk7/BC_PS/sikaiwei/bin/pipe/fungi/interproscan-5.16-55.0//interproscan.sh
+#pathshell       = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/iprscan/interproscan-5.16-55.0/path.sh
+go_alias        = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/go/releases_2016-01-12/go.alias
+go_class        = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/go/releases_2016-01-12/go.class
+#Nr
+NrSplitlst      = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/nr/20150531/nr.split.lst
+NrDBInfolst     = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/nr/20150531/nr.info.lst
+NrFungiSplitlst = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/nr/20160219/nr.fungi.split.lst
+NrFungiInfolst  = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/nr/20160219/nr.fungi.info.lst
+NrBacteriaSplitlst= /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/nr/20160219/nr.Bacteria.split.lst
+NrBacteriaInfolst = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/nr/20160219/nr.Bacteria.info.lst
+NrOtherSplitlst = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/nr/20160219/nr.other.split.lst
+NrOtherInfolst = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/nr/20160219/nr.other.info.lst
+#Nt
+NtSplitlst      = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/nt/20160219/nt.lst
+NtNames         = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/taxid/20160307/names.dmp.short
+NtNodes         = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/taxid/20160307/nodes.dmp.short
+GITaxid         = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/taxid/20160307/gi_taxid_nucl.dmp.gz
+#COG
+COGSplitlst     = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/cog/20141110/COG.all.protein.domains.fa.lst
+COGDBInfolst    = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/cog/20141110/COG.info.lst
+COGFun          = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/cog/20141110/fun2014.txt
+#KOG
+KOGSplitlst     = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kog/20090331/kog_clean.lst
+KOGFun          = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kog/20090331/fun.txt
+KOGWhog         = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kog/20090331/kog
+#KEGG
+KEGGAllFa       = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kegg/79/kegg_all_clean.fa
+KoMapTab        = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kegg/79/ko_map.tab
+MapTitleTab     = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kegg/79/map_title.tab
+KEGGKo79        = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kegg/79/ko
+KEGGMap79       = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kegg/79/map
+KEGGSplitlst79  = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kegg/79/kegg.split.lst
+KEGGfungi79     = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kegg/79/kegg_fungi.split.lst
+KEGGprokaryote79 = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kegg/79/kegg_prokaryote.split.lst
+
+KEGGAllFaNew  	= /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kegg/81/kegg_all_clean.fa
+KoMapTabNew	= /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kegg/81/ko_map.tab
+MapTitleTabNew	= /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kegg/81/map_title.tab
+KEGGKoNew	= /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kegg/81/ko
+KEGGMapNew	= /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kegg/81/map
+KEGGSplitlstNew	= /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kegg/81/kegg.split.lst
+KEGGfungiNew	= /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kegg/81/kegg_fungi.split.lst
+KEGGprokaryoteNew = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kegg/81/kegg_prokaryote.split.lst
+
+KEGGSplitlst    = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kegg/76/kegg.split.lst
+KEGGInfolst     = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kegg/76/kegg_all_clean.id.annot.lst
+KEGGKo          = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kegg/76/ko
+KEGGMap         = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kegg/76/map
+KEGGColor       = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kegg/76/color_direction.png
+#Treml
+TremblSplitlst  = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/trembl/release-2016_01/trembl.split.lst
+TremblInfolst   = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/trembl/release-2016_01/uniprot_sprot.fasta.simple.detail.lst
+#SwissProt
+SwissProtSplitlst       = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/swissprot/release-2016_01/uniprot_sprot.fasta.simple.lst
+SwissProtInfolst        = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/swissprot/release-2016_01/uniprot_sprot.fasta.simple.detail.lst
+#ARDB
+ARDBSplitlst    = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/ardb/2009/ardb_uniq.lst
+ARDBInfolst     = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/ardb/2009/ardb_info.lst
+#VFDB
+VFDBSplitlst    = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/vfdb/2016-02/VFDB.simple.lst
+VFDBInfolst     = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/vfdb/2016-02/VFDB.info.lst
+#PHI
+PHISplitlst     = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/phi/PHIbase4.0-2015-11-01/PHI.simple.lst
+PHIInfolst      = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/phi/PHIbase4.0-2015-11-01/PHI.info.lst
+#CAZY
+CAZYInfolst     = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/cazy/2016-04/cazy.info.lst
+CAZYSplitlst    = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/cazy/2016-04/cazy.pep.simple.fasta.lst
+CAZYcatalog     = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/cazy/2016-04/cazy.catalog.info
+#P450
+P450Splitlst    = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/p450/20120508/p450.fa.lst
+P450DBInfolst   = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/p450/20120508/p450.info
+#eggNOG
+NOGSplitlst     = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/nog/2015-10_4.5v/eggnog4.proteins.all.fa.lst
+NOGDBInfolst    = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/nog/2015-10_4.5v/NOG.info.lst
+NOGNames        = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/taxid/20160307/nodes.dmp.short
+NOGFun          = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/nog/2015-10_4.5v/Fun.txt
+################################### AnnotationConfigParamTag
+
+################################### ComparativeConfigParamTag
+DIR_PAC : "DIR_Bin";
+DIR_Blc : "/opt/blc/genome/biosoft";
+DIR_MICRO : "/ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/";
+DIR_Use : "/usr/bin";
+DIR_Raid1 : "/share/raid1/genome/biosoft";
+DIR_Bgi : "/opt/blc/self-software";
+#DIR_BAC : "/ifshk4/BC_PUB/biosoft/pipe/bc_mg/FUN_Denovo/Fungi_Pipeline_2.0.0/";
+DIR_BAC : "/ifshk7/BC_PS/wangsh3/Bacteria";
+DIR_FRes : "/ifshk4/BC_PUB/biosoft/pipe/bc_mg/FUN_Reseq";
+#software
+#R                   = DIR_Blc/R/bin/R
+R_bin			= DIR_Blc/R-204/bin
+R			= DIR_Blc/R/bin/R
+convert			= /ifshk7/BC_PS/sikaiwei/bin/convert
+blastn			= DIR_MICRO/blast/ncbi-blast-2.2.29/bin/blastn
+blastp			= DIR_MICRO/blast/ncbi-blast-2.2.29/bin/blastp
+makedb			= DIR_MICRO/blast/ncbi-blast-2.2.29/bin/makeblastdb	
+Repbase			= /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/RepBase/shell/RepeatMaskerLib.embl.lib
+nucmer			= DIR_Blc/MUMmer-3.22/nucmer
+deltafilter		= DIR_Blc/MUMmer-3.22/delta-filter
+show_snps		= DIR_Blc/MUMmer-3.22/show-snps
+show_aligns		= DIR_Blc/MUMmer-3.22/show-aligns
+showcoords		= DIR_Blc/MUMmer-3.22/show-coords
+mummerplot		= DIR_Blc/MUMmer-3.22/mummerplot
+muscle			= DIR_Blc/muscle-3.8.31/bin/muscle
+SeqChunker		= /ifshk7/BC_PS/yanglin1/softwares/proovreads/git/proovread/bin/SeqChunker
+solar			= DIR_Blc/solar-0.9.6/solar.pl
+KaKs_Calculator		= DIR_Blc/KaKsCalculator_2.0/bin/Linux/KaKs_Calculator
+treebest		= DIR_Blc/treebest-1.9.2/treebest
+monitor            	= /ifshk4/BC_PUB/biosoft/PIPE_RD/RNA/RNA_RNAseq/RNA_RNAseq_version3.1_beta/monitor
+Genbank_parser		= /ifshk4/BC_PUB/biosoft/pipe/bc_mg/BAC_Denovo/BAC_pipeline_1.1.1/common_bin/genbank_parser.pl
+samtools		= /ifshk4/BC_PUB/biosoft/PIPE_RD/Package/samtools-1.2/samtools-1.2/bin/samtools
+bwa			= /ifshk4/BC_PUB/biosoft/PIPE_RD/Package//bwa-0.7.10/bwa
+#Core_Pan
+add_species             = DIR_BAC/10.CorePan/src/add_species_mark.pl
+cd-hit                  = DIR_MICRO/cd-hit/cd-hit-v4.6.6-2016-0711/bin/cd-hit
+cluster_stat            = DIR_BAC/10.CorePan/src/statCDHitclstr.pl
+CorePanvenn             = DIR_BAC/10.CorePan/src/venny.Core-Pan.pl
+get_core_gene		= DIR_BAC/10.CorePan/src/get_core_gene.v2.pl
+strain_specific		= DIR_BAC/10.CorePan/src/strain_specific.pl
+CorePan_Stat		= DIR_BAC/10.CorePan/src/CorePan_Stat_1.1.pl
+Cumulative_curve	= DIR_BAC/10.CorePan/src/Cumulative_curve/curve.pl
+draw_Dilution_Curve	= DIR_BAC/10.CorePan/src/Cumulative_curve/draw_Dilution_Curve.pl
+
+#GeneFamily
+filt_len0_fa		= DIR_BAC/09.GeneFamily/src/filt_len0_fa.pl
+add_treefam_mark	= DIR_BAC/09.GeneFamily/src/add_treefam_species_mark.pl
+check_data_quality	= DIR_BAC/09.GeneFamily/src/check_data_quality.pl
+filter_markfil		= DIR_BAC/09.GeneFamily/src/filter_markfil.pl
+reform_gff_structure	= DIR_BAC/09.GeneFamily/src/reform_gff_structure.pl
+ortholog_paralog_family	= DIR_BAC/09.GeneFamily/src/ortholog_paralog_family.pl
+build_mfa		= DIR_BAC/09.GeneFamily/src/built_single_copy_mfa.pl
+hcluster_sg		= DIR_BAC/software/hcluster_sg/hcluster_sg
+GeneFamilyStatDraw	= DIR_BAC/09.GeneFamily/src/GeneFamily.Stat.Draw.pl
+GeneFamilyvenn		= DIR_BAC/09.GeneFamily/src/venny.GeneFamily.pl
+
+#Phylogenetic
+snp2fa			= DIR_BAC/14.Phylogenetic.tree/src/snp2fa.pl
+draw_tree		= DIR_BAC/14.Phylogenetic.tree/src/draw_tree.pl
+make_mfa		= DIR_BAC/14.Phylogenetic.tree/src/make_mfa.pl
+gene_family_mfa		= DIR_BAC/14.Phylogenetic.tree/src/creat_gene_family.mfa.pl
+svg2xxx			= DIR_BAC/lib/svg_kit/svg2xxx.pl
+
+#Synteny
+synteny			= DIR_BAC/08.Systeny/src/synteny.pl
+aline_get		= DIR_BAC/08.Systeny/src/aline_get.pl
+syncover		= DIR_BAC/08.Systeny/src/syncover
+Best_hit		= DIR_BAC/08.Systeny/src/Best_hit.pl
+draw_parallel		= DIR_BAC/08.Systeny/src/aligment_plot.pl
+draw_line		= DIR_BAC/08.Systeny/src/alig_line.pl
+line_diagram		= DIR_BAC/08.Systeny/src/line_diagram.pl
+stat_cover		= DIR_BAC/08.Systeny/src/stat_coverage.pl
+
+#KaKS
+handle_axt			= DIR_BAC/15.KaKs/src/handle_axt.pl
+kaks_list			= DIR_BAC/15.KaKs/src/kaks.list.pl
+line_diagram			= DIR_BAC/15.KaKs/src/line_diagram.pl
+
+#Soap
+soap2.21			= DIR_BAC/11.Coverage/src/soap2.21
+soap.coverage			= DIR_BAC/11.Coverage/src/soap.coverage2.27
+2bwt-builder			= DIR_BAC/11.Coverage/src/2bwt-builder
+cover_table			= DIR_BAC/11.Coverage/src/cover_table.pl
+all_cover_table			= DIR_BAC/11.Coverage/src/all.coverage.table.pl
+
+#Soap_snp
+msort				= DIR_BAC/12.SNP/src/msort
+pileup_script       		= DIR_BAC/12.SNP/src/pipeup2.pl
+show_aligns_script  		= DIR_BAC/12.SNP/src/show_aligns.pl
+filter_mummer_snp   		= DIR_BAC/12.SNP/src/filter_mummer_snp.pl
+ref_check           		= DIR_BAC/12.SNP/src/ref_check.pl
+aligns2base         		= DIR_BAC/12.SNP/src/aligns2base.pl
+pileup				= DIR_BAC/12.SNP/src/pileup
+snp_stat            		= DIR_BAC/12.SNP/src/snp_stat.pl
+pileup_treat        		= DIR_BAC/12.SNP/src/pileup_treat.pl
+check_pileup2_snpV2 		= DIR_BAC/12.SNP/src/check_pileup2_snpV2.pl
+snp_finalV2         		= DIR_BAC/12.SNP/src/snp_finalV2.pl
+runSoap             		= DIR_BAC/12.SNP/src/runSoap.pl
+repeat_finder       		= /ifshk4/BC_PUB/biosoft/pipe/bc_mg/BAC_Denovo/PGAP_4.0/02.Repeat/src/find_repeat.pl
+Repeat_filter       		= DIR_BAC/12.SNP/src/Repeat_filter.pl
+find_repeat_snp     		= DIR_BAC/12.SNP/src/find_repeat_for_bac_snp.pl
+MUMmerSnpPipline    		= DIR_BAC/12.SNP/src/MUMmerSnpPipline.V2.1.pl
+snp_annotation      		= DIR_BAC/12.SNP/src/snp_annotation_v2.2.pl
+total_annotation    		= DIR_BAC/12.SNP/src/snp_anno_1.0.2.pl
+
+code_table          		= DIR_FRes/Fungi_pipeline_2.1/lib/soapsnp/Code_table
+cycle_dis_R         		= DIR_FRes/Fungi_pipeline_2.1/lib/comm_bin/cycle_dis_R.pl
+SNP_chr_plot        		= DIR_FRes/Fungi_pipeline_2.1/lib/soapsnp/SNP_chr_plot.pl
+draw_radar          		= DIR_FRes/Fungi_pipeline_2.1/lib/soapsnp/draw_radar.pl
+snp_annotation			= DIR_BAC/12.SNP/src/snp_annotation_v2.1.pl
+
+#Soap_InDel
+soapIndel			= DIR_BAC/13.InDel/src/soapInDelV1.08
+InDel_filter			= DIR_BAC/13.InDel/src/InDel_filter.pl
+InDel_annotation		= DIR_BAC/13.InDel/src/indel_annotation_v2.1.pl
+InDel_Annotation		= DIR_BAC/13.InDel/src/InDel_Annotation.pl
+
+fa_stat            		= DIR_BAC/13.InDel/src/fa_stat.pl
+indel_sel_v2			= DIR_BAC/13.InDel/src/indel_sel-v2.pl
+Make_BWA           		= DIR_BAC/13.InDel/src/Make_BWA_sh_step1.pl
+Get_region_reads    		= DIR_BAC/13.InDel/src/Get_region_reads.pl
+fasta               		= DIR_BAC/13.InDel/src/fasta.pl
+New_Ref             		= DIR_BAC/13.InDel/src/New_Ref.pl
+Split_Reference     		= DIR_BAC/13.InDel/src/Split_Reference.pl
+Pick_validated      		= DIR_BAC/13.InDel/src/Pick_validated.pl
+Genome_part2_insert 		= DIR_BAC/13.InDel/src/Genome_part2_insert.pl
+indel_anno          		= DIR_BAC/13.InDel/src/indel_annotation_v2.pl
+bar_diagram			= DIR_BAC/13.InDel/src/bar_diagram.pl
+
+axt_correction      		= DIR_BAC/13.InDel/src/software/axt_correction
+axtSort             		= DIR_BAC/13.InDel/src/software/axtSort
+axtBest             		= DIR_BAC/13.InDel/src/software/axtBest
+lastz_postprocess   		= DIR_BAC/13.InDel/src/software/lastz_postprocess
+trash_comments      		= DIR_BAC/13.InDel/src/software/trash_comments
+trans_pos           		= DIR_BAC/13.InDel/src/software/trans_pos.pl
+
+best_hit            		= DIR_BAC/13.InDel/src/software/best_hit
+best_hit_2          		= DIR_BAC/13.InDel/src/software/best_hit_2
+intro_indel         		= <export LD_LIBRARY_PATH="/share/backup/luoruibang/bin/boost/stage/lib:$LD_LIBRARY_PATH"; DIR_BAC/13.InDel/src/software/intro_indel>
+detect_inv          		= DIR_BAC/13.InDel/src/software/detect_inv.pl
+lastz               		= DIR_Blc/lastz-1.03.02/lastz
+scaf_restrictor     		= DIR_BAC/13.InDel/src/scaf_restrictor
+bin_pick            		= <export LD_LIBRARY_PATH="/share/backup/luoruibang/bin/boost/stage/lib:$LD_LIBRARY_PATH"; DIR_BAC/13.InDel/src/bin_pick>
+
+#lib
+caohongzhi_lib      		= DIR_BAC/13.InDel/lib #dir
+
+code_table          		= DIR_FRes/Fungi_pipeline_2.1/lib/soapsnp/Code_table
+graph_lib			= DIR_BAC/15.KaKs/lib
+################################### ComparativeConfigParamTag

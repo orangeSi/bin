@@ -1,0 +1,70 @@
+#!/bin/sh
+
+sz_new="192.168.3.8"
+sz_old="192.168.9.102"
+wh_old="192.168.160.207"
+wh_new="192.168.160.10";
+hk_old="192.168.171.31"
+hk_new="192.168.210.11"
+hk_upload="192.168.208.61"
+
+info="
+usage1:myrsync <one dir or file> <sz/wh/qt/hk_upload> <target dir>
+usage2:myrsync <'multi dir or file'> <sz/wh/qt/hk_upload> <target dir>
+
+sz_new->$sz_new
+sz_old->$sz_old
+wh_old->$wh_old
+wh_new->$wh_new
+hk_old->$hk_old
+hk_new->$hk_new
+hk_upload->$hk_upload
+"
+
+
+if [ -z $3 ]
+then
+	echo "$info" && exit;
+fi
+passwd="qiutufF6";
+user="sikaiwei";
+if [ $2 = "sz_new" ]
+then
+	ip=$sz_new
+elif [ $2 = "sz_old" ] 
+then
+	ip=$sz_old
+elif [ $2 = "wh_old" ]
+then
+	ip=$wh_old
+elif [ $2 = "wh_new" ]
+then
+	ip=$wh_new
+elif [ $2 = "qt" ]
+then
+	ip="172.16.59.32";
+	passwd="sikaiwei";
+	user="Administrator";
+elif [ $2 = "hk_old" ]
+then
+	ip=$hk_old
+elif [ $2 = "hk_new" ]
+then
+	ip=$hk_new
+elif [ $2 = "hk_upload" ]
+then
+	ip=$hk_upload
+	passwd="qwer1234"
+else
+
+	 echo "$info" &&  exit
+fi
+
+
+cp="sshpass -p \"$passwd\" rsync -rv --progress $1 $user@$ip:$3"
+echo $cp
+$cp && echo cp done
+#shpass -p "$passwd" rsync -ar $1 $user@$ip:$3 && echo "end"
+
+
+

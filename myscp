@@ -1,0 +1,30 @@
+#!/bin/sh
+if [ -z $3 ]
+then
+	echo "usage:myscp <file> <sz/wh/qt> <path>" && exit;
+fi
+passwd="qiutufF6";
+user="sikaiwei";
+echo "file:$1";
+if [ $2 = "sz" ]
+then
+	ip="192.168.9.102";
+elif [ $2 = "wh" ]
+then
+	ip="192.168.160.207";
+elif [ $2 = "qt" ]
+then
+	ip="172.16.59.32";
+	passwd="sikaiwei";
+	user="Administrator";
+elif [ $2 = "hk" ]
+then
+	ip="192.168.171.31";
+
+fi
+echo "target:$1-$ip";
+echo "sshpass -p \"$passwd\" scp $1 $user@$ip:$3";
+sshpass -p "$passwd" scp $1 $user@$ip:$3 && echo "end sikaiwei@$ip:$3";
+
+
+

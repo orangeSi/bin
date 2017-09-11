@@ -1,0 +1,10 @@
+GeneFunction_Method = nr-swissprot-trembl-cog-kegg-phi-cazy-vfdb-ardb-t3ss-p450
+#go
+#IPR parameter
+IPRSplitPepNumber = 10
+IPROptions = -f tsv -dp  -iprlookup --goterms
+BlastSplitPepNumber = 10
+BlastOptions = -e 1e-5 -F F -a 4 -m 8
+BlastFilter1Options = -p 40 -d 30 -m 0 -e 1e-5
+BlastFilter2Options = -b Y
+T3SSOptions = -m plant -t cutoff=0.95

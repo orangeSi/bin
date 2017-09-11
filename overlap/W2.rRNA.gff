@@ -1,0 +1,20 @@
+##gff-version2
+##source-version RNAmmer-1.2
+##date 2017-02-15
+##Type DNA
+# seqname           source                      feature     start      end   score   +/-  frame  attribute
+# ---------------------------------------------------------------------------------------------------------
+unitig_0_pilon	RNAmmer-1.2	rRNA	382589	385466	3533.5	+	.	23s_rRNA	
+unitig_0_pilon	RNAmmer-1.2	rRNA	4444823	4447700	3529.7	-	.	23s_rRNA	
+unitig_0_pilon	RNAmmer-1.2	rRNA	4450490	4453366	3527.5	-	.	23s_rRNA	
+unitig_0_pilon	RNAmmer-1.2	rRNA	388256	391133	3529.7	+	.	23s_rRNA	
+unitig_0_pilon	RNAmmer-1.2	rRNA	385595	385708	95.3	+	.	5s_rRNA	
+unitig_0_pilon	RNAmmer-1.2	rRNA	4450248	4450361	95.3	-	.	5s_rRNA	
+unitig_0_pilon	RNAmmer-1.2	rRNA	391510	391623	95.3	+	.	5s_rRNA	
+unitig_0_pilon	RNAmmer-1.2	rRNA	391261	391374	95.3	+	.	5s_rRNA	
+unitig_0_pilon	RNAmmer-1.2	rRNA	4444582	4444695	95.3	-	.	5s_rRNA	
+unitig_0_pilon	RNAmmer-1.2	rRNA	380548	382080	1955.6	+	.	16s_rRNA	
+unitig_0_pilon	RNAmmer-1.2	rRNA	4448209	4449741	1955.6	-	.	16s_rRNA	
+unitig_0_pilon	RNAmmer-1.2	rRNA	4453875	4455407	1955.6	-	.	16s_rRNA	
+unitig_0_pilon	RNAmmer-1.2	rRNA	386215	387747	1955.6	+	.	16s_rRNA	
+# ---------------------------------------------------------------------------------------------------------

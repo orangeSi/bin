@@ -1,0 +1,259 @@
+####################	Softeware Path	########################
+upload		= /ifshk4/BC_PUB/biosoft/bin/upload.sh.x
+
+################################### FilterDataConfigParamTag
+############ Filter Data Softeware Path ##############
+Rscript         = /ifshk4/BC_PUB/biosoft/PIPE_RD/Package/R-3.1.1/bin/Rscript
+convert         = /usr/bin/convert
+################################### FilterDataConfigParamTag
+
+################################### AssemblyConfigParamTag
+############ Assembly Softeware Path ##############
+#Kmer
+convert = /usr/bin/convert
+#Merger CCS ,CorrectSubreads
+source          = /ifshk4/BC_PUB/biosoft/PIPE_RD/DNA/DNA_Denovo/PacBio/SMRTAnalysis/smrtanalysis/current/etc/setup.sh
+SeqChunker      = /ifshk7/BC_PS/yanglin1/softwares/proovreads/git/proovread/bin/SeqChunker
+perl_5_20_2	= /ifshk7/BC_PS/sikaiwei/perl/perl-5.20.2/bin
+proovread	= /ifshk7/BC_PS/sikaiwei/assembly/bac_complete/proovreads/git/proovread/bin
+bwa		= /ifshk7/BC_PS/yanglin1/softwares/proovreads/git/proovread/bin/../util/bwa/
+ccseq		= /ifshk7/BC_PS/yanglin1/softwares/proovreads/git/proovread/bin/ccseq
+export		= /ifshk7/BC_PS/yanglin1/softwares/proovreads/Log-Log4perl-1.46/lib:/ifshk7/BC_PS/yanglin1/softwares/proovreads/File-Which-1.16/lib/:/ifshk7/BC_PS/yanglin1/softwares/proovreads/git/proovread/lib
+DAZZ_DB		= /ifshk7/BC_PS/sikaiwei/assembly/FALCON/FLALCON-intergrate/DAZZ_DB
+DALIGNER	= /ifshk7/BC_PS/sikaiwei/assembly/FALCON/FLALCON-intergrate/DALIGNER
+activate	= /ifshk7/BC_PS/sikaiwei/assembly/FALCON/FLALCON-intergrate/fc_env/bin/activate
+#Correct SingeBase SOAPsnpindel
+bwt_builder	= /ifshk4/BC_PUB/biosoft/pipe/bc_mg/FUN_Denovo/Fungi_Pipeline_2.0.0/06.Reseq.Pipeline/lib/soap2/2bwt-builder
+soap		= /ifshk4/BC_PUB/biosoft/pipe/bc_mg/FUN_Denovo/Fungi_Pipeline_2.0.0/06.Reseq.Pipeline/lib/soap2/soap2.21 
+soap_coverage	= /ifshk4/BC_PUB/biosoft/pipe/bc_mg/FUN_Denovo/Fungi_Pipeline_2.0.0/06.Reseq.Pipeline/lib/soap2/soap.coverage
+cover_table	= /ifshk4/BC_PUB/biosoft/pipe/bc_mg/FUN_Denovo/Fungi_Pipeline_2.0.0/06.Reseq.Pipeline/lib/soap2/cover_table.pl
+soap_split	= /ifshk4/BC_PUB/biosoft/pipe/bc_mg/FUN_Denovo/Fungi_Pipeline_2.0.0/06.Reseq.Pipeline/lib/soapsnp/soap_split.pl
+msort		= /ifshk4/BC_PUB/biosoft/pipe/bc_mg/FUN_Denovo/Fungi_Pipeline_2.0.0/06.Reseq.Pipeline/lib/soapsnp/msort
+cycle_soapsnp	= /ifshk4/BC_PUB/biosoft/pipe/bc_mg/FUN_Denovo/Fungi_Pipeline_2.0.0/06.Reseq.Pipeline/lib/soapsnp/cycle_soapsnp.pl
+soapindel	= /ifshk4/BC_PUB/biosoft/pipe/bc_mg/FUN_Denovo/Fungi_Pipeline_2.0.0/06.Reseq.Pipeline/lib/soapInDel/soapInDelV1.08
+#Correct SingeBase GATK
+bwa2		= /ifshk4/BC_PUB/biosoft/PIPE_RD/RNA/RNA_RNAref/RNA_RNAref_version5.0_beta/RNA_module/bin/bwa
+samtools	= /ifshk4/BC_PUB/biosoft/PIPE_RD/Package/samtools-0.1.19/samtools
+java		= /ifshk4/BC_PUB/biosoft/PIPE_RD/RNA/RNA_RNAref/RNA_RNAref_version5.0_beta/RNA_module/bin/java/jre1.6.0_21/bin
+jar_picard	= /ifshk1/BC_SA/PROJECT/background/compute.storage/pipeline/CSAP_WGS_v6.0/bin/picard
+PERL5LIB	= /ifshk4/BC_PUB/biosoft/PIPE_RD/RNA/RNA_RNAref/RNA_RNAref_version5.0_beta/RNA_module/SNP/snp_gatk/lib
+gatk		= /ifshk4/BC_PUB/biosoft/PIPE_RD/RNA/RNA_RNAref/RNA_RNAref_version5.0_beta/RNA_module/bin/gatk
+filt_GATK_allel	= /ifshk4/BC_PUB/biosoft/PIPE_RD/RNA/RNA_RNAref/RNA_RNAref_version5.0_beta/RNA_module/SNP/snp_gatk/bin/filt_GATK_allel.pl
+# Assembly Evaluate 
+line_diagram	= /ifshk4/BC_PUB/biosoft/pipe/bc_mg/BAC_Denovo/BAC_pipeline_1.1.1/Assembly/Assembly_V1.0/lib/SOAP2/line_diagram.pl
+GC_depth_dis	= /ifshk4/BC_PUB/biosoft/pipe/bc_mg/BAC_Denovo/BAC_pipeline_1.1.1/Assembly/Assembly_V1.0/lib/SOAP2/GC_depth_dis.pl
+rnammer		= /ifshk4/BC_PUB/biosoft/pipe/bc_mg/FUN_Denovo/PGAP-2.0/software/rnammer-1.2/rnammer
+synteny		= /ifshk4/BC_PUB/biosoft/pipe/bc_mg/BAC_Denovo/BAC_pipeline_1.1.1/bin/../Assembly/Assembly_V2.4/lib/synteny/synteny.pl
+#Link
+SSPACE		= /ifshk7/BC_PS/sikaiwei/assembly/scaffold/SSPACE-STANDARD-3.0_linux-x86_64/SSPACE_Standard_v3.0.pl
+SSPACELongRead	= /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/SSPACE-LongRead_v1-1/SSPACE-LongRead_v1-1/SSPACE-LongRead.pl
+#FillGap
+pbjelly		= /home/sikaiwei/software/assembly/pbjelly2/PBSuite_14.9.9/setup.sh
+################################### AssemblyConfigParamTag
+
+################################### ComponentConfigParamTag
+## GenomeCompenent:gene prediction->
+Genemarkes = source /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/Genemarkes/path.sh && /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/Genemarkes/gm_et_linux_64/gmes_petap/gmes_petap.pl
+Rscript = /ifshk4/BC_PUB/biosoft/PIPE_RD/Package/R-3.1.1/bin/Rscript
+convert = /usr/bin/convert
+
+#snap
+snap = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/snap/snap/snap
+SNAP_train = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/snap/snap/Train/SNAP_train_chform.pl
+SNAP_fathom  = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/snap/snap/fathom
+SNAP_forge = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/snap/snap/forge
+SNAP_hmm  = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/snap/snap/hmm-assembler.pl
+
+#AUGUSTUS
+AUGUSTUS_CONFIG_PATH = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/augustus-3.2.1/augustus-3.2.1/config/
+Augustus_env = export PATH=/ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/augustus-3.2.1/augustus-3.2.1/bin/:/ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/augustus-3.2.1/augustus-3.2.1/scripts:$PATH
+PATH = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/augustus-3.2.1/augustus-3.2.1/bin/:/ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/augustus-3.2.1/augustus-3.2.1/scripts:$PATH
+
+#cegma
+wisecfg = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/Cegma_software/wise2.4.1/wisecfg/
+CEGMA = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/Cegma_software/CEGMA_v2.5
+geneid = /ifshk4/BC_PUB/biosoft/pipe/bc_mg/FUN_Denovo/Fungi_Pipeline_2.0.0/software/Cegma_software/geneid/bin/
+hmmer = /ifshk4/BC_PUB/biosoft/pipe/bc_mg/FUN_Denovo/Fungi_Pipeline_2.0.0/software/Cegma_software/hmmer-3.0/src/
+wise = "export WISECONFIGDIR=/ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/Cegma_software/wise2.4.1/wisecfg && export LD_LIBRARY_PATH=/ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/system/glib-2.0.0/lib:\$LD_LIBRARY_PATH && /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/Cegma_software/wise2.4.1/src/bin/genewise"
+blast_bin = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/blast/ncbi-blast-2.2.29/bin
+cegma_lib = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/Cegma_software/Lib/lib
+cegma_lib64 = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/Cegma_software/Lib/lib64
+cegma = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/Cegma_software/CEGMA_v2.5/bin/cegma
+
+#CCG
+tophat = /ifshk4/BC_PUB/biosoft/PIPE_RD/RNA/RNA_RNAseq/RNA_RNAseq_2015a/RNA_module/bin/tophat/tophat
+bowtie = /ifshk4/BC_PUB/biosoft/PIPE_RD/RNA/RNA_RNAseq/RNA_RNAseq_2015a/RNA_module/bin/tophat/bin
+samtools = /ifshk4/BC_PUB/biosoft/PIPE_RD/Package/samtools-0.1.19/
+cufflinks = /ifshk4/BC_PUB/biosoft/PIPE_RD/RNA/RNA_RNAseq/RNA_RNAseq_2015a/RNA_module/bin/cufflinks
+cufflinks_lib = /ifshk1/pub/genome/biosoft/bc_gag/Annotation/biosoft/Annotation_pipeline1_1.0/05.RNAseq_annlysis/lib
+
+R = /ifshk4/BC_PUB/biosoft/PIPE_RD/Package/R-2.10.0/bin/R
+convert = /usr/bin/convert
+fastalength = /ifshk4/BC_PUB/biosoft/PIPE_RD/Package/fastalength/fastalength
+
+## GenomeCompenent:ncRNA->
+tRNAscan = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/tRNAscan-SE/tRNAscan-SE-1.3.1/bin/tRNAscan-SE
+tRNAscan_env = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/tRNAscan-SE/tRNAscan-SE-1.3.1/path.sh
+RNAmmer = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/RNAmmer-1.2/rnammer
+blastBindir = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/blast/ncbi-blast-2.2.29/bin
+Rfam = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/Rfam/12.0/
+cmsearch = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/Infernal/infernal-1.1.1-linux-intel-gcc/bin/cmsearch
+msort = /ifshk4/BC_PUB/biosoft/PIPE_RD/Package/msort/msort
+
+
+## GenomeCompenent:repeat->
+#repeatmasker = /ifshk4/BC_PUB/biosoft/pipe/bc_mg/FUN_Denovo/Fungi_Pipeline_2.0.0/software/Repeat_software/RepeatMasker/RepeatMasker
+repeatmasker = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/repeat_software/RepeatMasker/RepeatMasker/RepeatMasker
+#trf = ./ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/TRF/path.sh;/ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/TRF/trf409.legacylinux64
+trf = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/repeat_software/TRF/trf407b/trf
+proteinmasker = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/repeat_software/RepeatMasker/RepeatMasker/RepeatProteinMask
+
+#trf = /ifshk4/BC_PUB/biosoft/pipe/bc_mg/FUN_Denovo/Fungi_Pipeline_2.0.0/software/Repeat_software/TRF407b/trf
+#proteinmasker = /ifshk4/BC_PUB/biosoft/pipe/bc_mg/FUN_Denovo/Fungi_Pipeline_2.0.0/software/Repeat_software/RepeatMasker/RepeatProteinMask
+repeatmodeler = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/repeat_software/RepeatModeler
+################################### ComponentConfigParamTag
+
+################################### AnnotationConfigParamTag
+##### 4) Annotation Softeware Path #####
+Rscript         = /ifshk4/BC_PUB/biosoft/PIPE_RD/Package/R-3.1.1/bin/Rscript
+convert         = /usr/bin/convert
+BlastBin        = /ifshk4/BC_PUB/biosoft/pipe/bc_paap/03.Soft_ALL/blast-2.2.26/bin/
+SeqChunker      = /ifshk7/BC_PS/yanglin1/softwares/proovreads/git/proovread/bin/SeqChunker
+#IPRscan
+IprscanJava     = /ifshk4/BC_PUB/biosoft/PIPE_RD/Package/java/jre1.6.0_21//bin
+IprscanPython   = /ifshk7/BC_PS/sikaiwei/python/Python-2.7.9/bin
+IprscanShell    = /ifshk4/BC_PUB/biosoft/PIPE_RD/DNA/DNA_annotation/database/iprscan/interpro55/interproscan-5.16-55.0/interproscan.sh
+go_alias        = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/go/releases_2016-01-12/go.alias
+go_class        = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/go/releases_2016-01-12/go.class
+#Nr
+NrSplitlst      = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/nr/20150531/nr.split.lst
+NrDBInfolst     = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/nr/20150531/nr.info.lst
+#Nt
+NtSplitlst      = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/nt/20160219/nt.lst
+NtNames         = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/taxid/20160307/names.dmp.short
+NtNodes         = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/taxid/20160307/nodes.dmp.short
+GITaxid         = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/taxid/20160307/gi_taxid_nucl.dmp.gz
+#COG
+COGSplitlst     = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/cog/20141110/COG.all.protein.domains.fa.lst
+COGDBInfolst    = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/cog/20141110/COG.info.lst
+COGFun          = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/cog/20141110/fun2014.txt
+#KOG
+KOGSplitlst     = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kog/20090331/kog_clean.lst
+KOGFun          = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kog/20090331/fun.txt
+KOGWhog         = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kog/20090331/kog
+#KEGG
+KEGGAllFa	= /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kegg/79/kegg_all_clean.fa 
+KoMapTab	= /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kegg/79/ko_map.tab
+MapTitleTab	= /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kegg/79/map_title.tab
+KEGGKo79	= /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kegg/79/ko
+KEGGMap79	= /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kegg/79/map
+KEGGSplitlst79	= /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kegg/79/kegg.split.lst
+
+KEGGSplitlst    = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kegg/76/kegg.split.lst
+KEGGInfolst     = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kegg/76/kegg_all_clean.id.annot.lst
+KEGGKo          = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kegg/76/ko
+KEGGMap         = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kegg/76/map
+KEGGColor       = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/kegg/76/color_direction.png
+#Treml
+TremblSplitlst  = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/trembl/release-2016_01/trembl.split.lst
+TremblInfolst   = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/trembl/release-2016_01/uniprot_sprot.fasta.simple.detail.lst
+#SwissProt
+SwissProtSplitlst       = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/swissprot/release-2016_01/uniprot_sprot.fasta.simple.lst
+SwissProtInfolst        = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/swissprot/release-2016_01/uniprot_sprot.fasta.simple.detail.lst
+#ARDB
+ARDBSplitlst    = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/ardb/2009/ardb_uniq.lst
+ARDBInfolst     = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/ardb/2009/ardb_info.lst
+#VFDB
+VFDBSplitlst    = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/vfdb/2016-02/VFDB.simple.lst
+VFDBInfolst     = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/vfdb/2016-02/VFDB.info.lst
+#PHI
+PHISplitlst     = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/phi/PHIbase4.0-2015-11-01/PHI.simple.lst
+PHIInfolst      = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/phi/PHIbase4.0-2015-11-01/PHI.info.lst
+#CAZY
+CAZYInfolst     = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/cazy/2016-04/cazy.info.lst
+CAZYSplitlst    = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/cazy/2016-04/cazy.pep.simple.fasta.lst
+CAZYcatalog     = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/cazy/2016-04/cazy.catalog.info
+#P450
+P450Splitlst    = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/p450/20120508/p450.fa.lst
+P450DBInfolst   = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/p450/20120508/p450.info
+#eggNOG
+NOGSplitlst     = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/nog/2015-10_4.5v/eggnog4.proteins.all.fa.lst
+NOGDBInfolst    = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/nog/2015-10_4.5v/NOG.info.lst
+NOGNames        = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/taxid/20160307/nodes.dmp.short
+NOGFun          = /ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Database/nog/2015-10_4.5v/Fun.txt
+################################### AnnotationConfigParamTag
+
+################################### ComparativeConfigParamTag
+################## Comparative Softeware Path ###########
+DIR_PAC : "DIR_Bin";
+DIR_Blc : "/opt/blc/genome/biosoft";
+DIR_MICRO : "/ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/Package/";
+DIR_Use : "/usr/bin";
+DIR_Raid1 : "/share/raid1/genome/biosoft";
+DIR_Ass :
+"/ifshk4/BC_PUB/biosoft/pipe/bc_mg/BAC_Denovo/BAC_pipeline_1.1.1/Assembly";
+DIR_Bgi : "/opt/blc/self-software";
+#DIR_Fun :
+"/ifshk4/BC_PUB/biosoft/pipe/bc_mg/FUN_Denovo/Fungi_Pipeline_2.0.0/";
+DIR_Fun : "/ifshk4/BC_PUB/biosoft/PIPE_RD/MICRO/DNA/Fungus_Genome_Denovo_PacBio/Fungus_Genome_Denovo_PacBio_2016c/AnalysisModule/Comparative/";
+DIR_FRes : "/ifshk4/BC_PUB/biosoft/pipe/bc_mg/FUN_Reseq";
+#software
+#R                   = DIR_Blc/R/bin/R
+R_bin                   = DIR_Blc/R-204/bin
+R                       = DIR_Blc/R/bin/R
+convert                 = DIR_Use/convert
+blastn                  = DIR_MICRO/blast/ncbi-blast-2.2.29/bin/blastn
+blastp                  = DIR_MICRO/blast/ncbi-blast-2.2.29/bin/blastp
+makedb                  = DIR_MICRO/blast/ncbi-blast-2.2.29/bin/makeblastdb
+nucmer                  = DIR_Blc/MUMmer-3.22/nucmer
+mummerplot              = DIR_Blc/MUMmer-3.22/mummerplot
+muscle                  = DIR_Blc/muscle-3.8.31/bin/muscle
+SeqChunker              = /ifshk7/BC_PS/yanglin1/softwares/proovreads/git/proovread/bin/SeqChunker
+solar                   = DIR_Blc/solar-0.9.6/solar.pl
+KaKs_Calculator         = DIR_Blc/KaKsCalculator_2.0/bin/Linux/KaKs_Calculator
+treebest                = DIR_Blc/treebest-1.9.2/treebest
+monitor                 = /ifshk4/BC_PUB/biosoft/PIPE_RD/RNA/RNA_RNAseq/RNA_RNAseq_version3.1_beta/monitor
+Genbank_parser          = /ifshk4/BC_PUB/biosoft/pipe/bc_mg/BAC_Denovo/BAC_pipeline_1.1.1/common_bin/genbank_parser.pl
+#Core_Pan
+core_algorithm          = DIR_Fun/09.CorePan.Pipeline/src/core_algorithm.pl
+merge_pan               = DIR_Fun/09.CorePan.Pipeline/src/merge_pan.pl
+gene_cluster            = DIR_Fun/09.CorePan.Pipeline/src/gene_cluster.pl
+get_core_gene           = DIR_Fun/09.CorePan.Pipeline/src/get_core_gene.pl
+strain_specific         = DIR_Fun/09.CorePan.Pipeline/src/strain_specific.pl
+CorePan_Stat            = DIR_Fun/09.CorePan.Pipeline/src/CorePan_Stat_1.1.pl
+Cumulative_curve        = DIR_Fun/09.CorePan.Pipeline/src/Cumulative_curve/curve.pl
+draw_Dilution_Curve     = DIR_Fun/09.CorePan.Pipeline/src/Cumulative_curve/draw_Dilution_Curve.pl
+core_matrix             = DIR_Fun/09.CorePan.Pipeline/src/core_matrix.pl
+#GeneFamily
+filt_len0_fa            = DIR_Fun/08.GeneFamily.Pipeline/src/filt_len0_fa.pl
+add_treefam_mark        = DIR_Fun/08.GeneFamily.Pipeline/src/add_treefam_species_mark.pl
+check_data_quality      = DIR_Fun/08.GeneFamily.Pipeline/src/check_data_quality.pl
+filter_markfil          = DIR_Fun/08.GeneFamily.Pipeline/src/filter_markfil.pl
+reform_gff_structure    = DIR_Fun/08.GeneFamily.Pipeline/src/reform_gff_structure.pl
+ortholog_paralog_family = DIR_Fun/08.GeneFamily.Pipeline/src/ortholog_paralog_family.pl
+build_mfa               = DIR_Fun/08.GeneFamily.Pipeline/src/built_single_copy_mfa.pl
+hcluster_sg             = DIR_Fun/software/hcluster_sg/hcluster_sg
+#Phylogenetic
+snp2fa                  = DIR_Fun/10.Phylogenetic.tree/src/snp2fa.pl
+draw_tree               = DIR_Fun/10.Phylogenetic.tree/src/draw_tree.pl
+make_mfa                = DIR_Fun/10.Phylogenetic.tree/src/make_mfa.pl
+gene_family_mfa         = DIR_Fun/10.Phylogenetic.tree/src/creat_gene_family.mfa.pl
+svg2xxx                 = DIR_Fun/lib/svg_kit/svg2xxx.pl
+#Synteny
+format_check                    = DIR_Fun/07.Systeny.Pipeline/src/format_check.pl
+Scaf_sort                       = DIR_Fun/07.Systeny.Pipeline/src/Scaf_sort.pl
+reciprocal_best_ortholog        = DIR_Fun/07.Systeny.Pipeline/src/reciprocal_best_ortholog.pl
+draw_synteny_figure             = DIR_Fun/07.Systeny.Pipeline/src/draw_synteny_figure.pl
+bestAlign                       = DIR_Fun/07.Systeny.Pipeline/src/bestAlign.pl
+distribute_pre                  = DIR_Fun/07.Systeny.Pipeline/src/distribute_pre.pl
+distribute_svg                  = DIR_Fun/07.Systeny.Pipeline/src/distribute_svg.pl
+################################### ComparativeConfigParamTag
+
+
+
+
+
+
+
+
+

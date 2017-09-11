@@ -1,0 +1,70 @@
+<svg width="1000px" height="1000px" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="500" cy="300" rx="66" ry="220" style="fill:purple;fill-opacity:0.518181818181818" transform="rotate(0, 500 500)" />
+<text x="500" y="59.9999999999999" transform="rotate(0, 500 59.9999999999999)" style="font-size:18;text-anchor:middle;dominant-baseline:middle"><tspan font-style="italic">S. venezuelae</tspan><tspan> ATCC 10712</tspan></text>
+<text x="500" y="140" transform="rotate(0, 500 140)" style="font-size:20;text-anchor:middle;dominant-baseline:middle" >570</text>
+<ellipse cx="500" cy="300" rx="66" ry="220" style="fill:purple;fill-opacity:0.536363636363636" transform="rotate(16.3636363636364, 500 500)" />
+<text x="623.962325010229" y="77.8230916096211" transform="rotate(16.3636363636364, 623.962325010229 77.8230916096211)" style="font-size:18;text-anchor:middle;dominant-baseline:middle"><tspan font-style="italic">S. lydicus</tspan><tspan> 103</tspan></text>
+<text x="601.423720462915" y="154.582529498781" transform="rotate(16.3636363636364, 601.423720462915 154.582529498781)" style="font-size:20;text-anchor:middle;dominant-baseline:middle" >232</text>
+<ellipse cx="500" cy="300" rx="66" ry="220" style="fill:purple;fill-opacity:0.554545454545455" transform="rotate(32.7272727272727, 500 500)" />
+<text x="737.881959680463" y="129.84844555428" transform="rotate(32.7272727272727, 737.881959680463 129.84844555428)" style="font-size:18;text-anchor:middle;dominant-baseline:middle"><tspan font-style="italic">S. avermitilis</tspan><tspan> MA-4680</tspan></text>
+<text x="694.630694284015" y="197.148728180775" transform="rotate(32.7272727272727, 694.630694284015 197.148728180775)" style="font-size:20;text-anchor:middle;dominant-baseline:middle" >629</text>
+<ellipse cx="500" cy="300" rx="66" ry="220" style="fill:purple;fill-opacity:0.572727272727273" transform="rotate(49.0909090909091, 500 500)" />
+<text x="832.529812715874" y="211.861277064075" transform="rotate(49.0909090909091, 832.529812715874 211.861277064075)" style="font-size:18;text-anchor:middle;dominant-baseline:middle"><tspan font-style="italic">S. lydicus</tspan><tspan> A02</tspan></text>
+<text x="772.069846767533" y="264.250135779697" transform="rotate(49.0909090909091, 772.069846767533 264.250135779697)" style="font-size:20;text-anchor:middle;dominant-baseline:middle" >970</text>
+<ellipse cx="500" cy="300" rx="66" ry="220" style="fill:purple;fill-opacity:0.590909090909091" transform="rotate(65.4545454545455, 500 500)" />
+<text x="900.238077955988" y="317.21739427917" transform="rotate(65.4545454545455, 900.238077955988 317.21739427917)" style="font-size:18;text-anchor:middle;dominant-baseline:middle"><tspan font-style="italic">S. coelicolor</tspan><tspan> A3-2</tspan></text>
+<text x="827.467518327627" y="350.450595319321" transform="rotate(65.4545454545455, 827.467518327627 350.450595319321)" style="font-size:20;text-anchor:middle;dominant-baseline:middle" >774</text>
+<ellipse cx="500" cy="300" rx="66" ry="220" style="fill:purple;fill-opacity:0.609090909090909" transform="rotate(81.8181818181818, 500 500)" />
+<text x="935.52143442761" y="437.381471159754" transform="rotate(81.8181818181818, 935.52143442761 437.381471159754)" style="font-size:18;text-anchor:middle;dominant-baseline:middle"><tspan font-style="italic">S. auratus</tspan><tspan> AGR0001</tspan></text>
+<text x="856.335719077136" y="448.766658221617" transform="rotate(81.8181818181818, 856.335719077136 448.766658221617)" style="font-size:20;text-anchor:middle;dominant-baseline:middle" >302</text>
+<ellipse cx="500" cy="300" rx="66" ry="220" style="fill:purple;fill-opacity:0.627272727272727" transform="rotate(98.1818181818182, 500 500)" />
+<text x="935.52143442761" y="562.618528840246" transform="rotate(278.181818181818, 935.52143442761 562.618528840246)" style="font-size:18;text-anchor:middle;dominant-baseline:middle"><tspan font-style="italic">S. chattanoogensis</tspan><tspan> NRRL ISP-5002</tspan></text>
+<text x="856.335719077136" y="551.233341778383" transform="rotate(278.181818181818, 856.335719077136 551.233341778383)" style="font-size:20;text-anchor:middle;dominant-baseline:middle" >195</text>
+<ellipse cx="500" cy="300" rx="66" ry="220" style="fill:purple;fill-opacity:0.645454545454546" transform="rotate(114.545454545455, 500 500)" />
+<text x="900.238077955988" y="682.78260572083" transform="rotate(294.545454545455, 900.238077955988 682.78260572083)" style="font-size:18;text-anchor:middle;dominant-baseline:middle"><tspan font-style="italic">S. bingchenggensis</tspan><tspan> BCW-1</tspan></text>
+<text x="827.467518327627" y="649.549404680679" transform="rotate(294.545454545455, 827.467518327627 649.549404680679)" style="font-size:20;text-anchor:middle;dominant-baseline:middle" >867</text>
+<ellipse cx="500" cy="300" rx="66" ry="220" style="fill:purple;fill-opacity:0.663636363636364" transform="rotate(130.909090909091, 500 500)" />
+<text x="832.529812715874" y="788.138722935925" transform="rotate(310.909090909091, 832.529812715874 788.138722935925)" style="font-size:18;text-anchor:middle;dominant-baseline:middle"><tspan font-style="italic">S. natalensis</tspan><tspan> ATCC 27448</tspan></text>
+<text x="772.069846767533" y="735.749864220303" transform="rotate(310.909090909091, 772.069846767533 735.749864220303)" style="font-size:20;text-anchor:middle;dominant-baseline:middle" >539</text>
+<ellipse cx="500" cy="300" rx="66" ry="220" style="fill:purple;fill-opacity:0.681818181818182" transform="rotate(147.272727272727, 500 500)" />
+<text x="737.881959680463" y="870.15155444572" transform="rotate(327.272727272727, 737.881959680463 870.15155444572)" style="font-size:18;text-anchor:middle;dominant-baseline:middle"><tspan font-style="italic">S. auratus</tspan><tspan> AGR0001</tspan></text>
+<text x="694.630694284015" y="802.851271819225" transform="rotate(327.272727272727, 694.630694284015 802.851271819225)" style="font-size:20;text-anchor:middle;dominant-baseline:middle" >5047</text>
+<ellipse cx="500" cy="300" rx="66" ry="220" style="fill:purple;fill-opacity:0.7" transform="rotate(163.636363636364, 500 500)" />
+<text x="623.962325010229" y="922.176908390379" transform="rotate(343.636363636364, 623.962325010229 922.176908390379)" style="font-size:18;text-anchor:middle;dominant-baseline:middle"><tspan font-style="italic">S. auratus</tspan><tspan> AGR0001</tspan></text>
+<text x="601.423720462915" y="845.417470501219" transform="rotate(343.636363636364, 601.423720462915 845.417470501219)" style="font-size:20;text-anchor:middle;dominant-baseline:middle" >302</text>
+<ellipse cx="500" cy="300" rx="66" ry="220" style="fill:purple;fill-opacity:0.718181818181818" transform="rotate(180, 500 500)" />
+<text x="500" y="940" transform="rotate(360, 500 940)" style="font-size:18;text-anchor:middle;dominant-baseline:middle"><tspan font-style="italic">S. auratus</tspan><tspan> AGR0001</tspan></text>
+<text x="500" y="860" transform="rotate(360, 500 860)" style="font-size:20;text-anchor:middle;dominant-baseline:middle" >302</text>
+<ellipse cx="500" cy="300" rx="66" ry="220" style="fill:purple;fill-opacity:0.736363636363636" transform="rotate(196.363636363636, 500 500)" />
+<text x="376.037674989771" y="922.176908390379" transform="rotate(376.363636363636, 376.037674989771 922.176908390379)" style="font-size:18;text-anchor:middle;dominant-baseline:middle"><tspan font-style="italic">S. auratus</tspan><tspan> AGR0001</tspan></text>
+<text x="398.576279537085" y="845.417470501219" transform="rotate(376.363636363636, 398.576279537085 845.417470501219)" style="font-size:20;text-anchor:middle;dominant-baseline:middle" >302</text>
+<ellipse cx="500" cy="300" rx="66" ry="220" style="fill:purple;fill-opacity:0.754545454545455" transform="rotate(212.727272727273, 500 500)" />
+<text x="262.118040319537" y="870.15155444572" transform="rotate(392.727272727273, 262.118040319537 870.15155444572)" style="font-size:18;text-anchor:middle;dominant-baseline:middle"><tspan font-style="italic">S. auratus</tspan><tspan> AGR0001</tspan></text>
+<text x="305.369305715985" y="802.851271819225" transform="rotate(392.727272727273, 305.369305715985 802.851271819225)" style="font-size:20;text-anchor:middle;dominant-baseline:middle" >302</text>
+<ellipse cx="500" cy="300" rx="66" ry="220" style="fill:purple;fill-opacity:0.772727272727273" transform="rotate(229.090909090909, 500 500)" />
+<text x="167.470187284126" y="788.138722935926" transform="rotate(409.090909090909, 167.470187284126 788.138722935926)" style="font-size:18;text-anchor:middle;dominant-baseline:middle"><tspan font-style="italic">S. auratus</tspan><tspan> AGR0001</tspan></text>
+<text x="227.930153232467" y="735.749864220303" transform="rotate(409.090909090909, 227.930153232467 735.749864220303)" style="font-size:20;text-anchor:middle;dominant-baseline:middle" >302</text>
+<ellipse cx="500" cy="300" rx="66" ry="220" style="fill:purple;fill-opacity:0.790909090909091" transform="rotate(245.454545454545, 500 500)" />
+<text x="99.7619220440121" y="682.78260572083" transform="rotate(425.454545454545, 99.7619220440121 682.78260572083)" style="font-size:18;text-anchor:middle;dominant-baseline:middle"><tspan font-style="italic">S. chattanoogensis</tspan><tspan> NRRL ISP-5002</tspan></text>
+<text x="172.532481672373" y="649.549404680679" transform="rotate(425.454545454545, 172.532481672373 649.549404680679)" style="font-size:20;text-anchor:middle;dominant-baseline:middle" >302</text>
+<ellipse cx="500" cy="300" rx="66" ry="220" style="fill:purple;fill-opacity:0.809090909090909" transform="rotate(261.818181818182, 500 500)" />
+<text x="64.4785655723896" y="562.618528840246" transform="rotate(441.818181818182, 64.4785655723896 562.618528840246)" style="font-size:18;text-anchor:middle;dominant-baseline:middle"><tspan font-style="italic">S. chattanoogensis</tspan><tspan> NRRL ISP-5002</tspan></text>
+<text x="143.664280922864" y="551.233341778383" transform="rotate(441.818181818182, 143.664280922864 551.233341778383)" style="font-size:20;text-anchor:middle;dominant-baseline:middle" >195</text>
+<ellipse cx="500" cy="300" rx="66" ry="220" style="fill:purple;fill-opacity:0.827272727272727" transform="rotate(278.181818181818, 500 500)" />
+<text x="64.4785655723895" y="437.381471159755" transform="rotate(278.181818181818, 64.4785655723895 437.381471159755)" style="font-size:18;text-anchor:middle;dominant-baseline:middle"><tspan font-style="italic">S. chattanoogensis</tspan><tspan> NRRL ISP-5002</tspan></text>
+<text x="143.664280922864" y="448.766658221617" transform="rotate(278.181818181818, 143.664280922864 448.766658221617)" style="font-size:20;text-anchor:middle;dominant-baseline:middle" >195</text>
+<ellipse cx="500" cy="300" rx="66" ry="220" style="fill:purple;fill-opacity:0.845454545454545" transform="rotate(294.545454545455, 500 500)" />
+<text x="99.7619220440118" y="317.21739427917" transform="rotate(294.545454545455, 99.7619220440118 317.21739427917)" style="font-size:18;text-anchor:middle;dominant-baseline:middle"><tspan font-style="italic">S. chattanoogensis</tspan><tspan> NRRL ISP-5002</tspan></text>
+<text x="172.532481672373" y="350.450595319321" transform="rotate(294.545454545455, 172.532481672373 350.450595319321)" style="font-size:20;text-anchor:middle;dominant-baseline:middle" >195</text>
+<ellipse cx="500" cy="300" rx="66" ry="220" style="fill:purple;fill-opacity:0.863636363636364" transform="rotate(310.909090909091, 500 500)" />
+<text x="167.470187284126" y="211.861277064075" transform="rotate(310.909090909091, 167.470187284126 211.861277064075)" style="font-size:18;text-anchor:middle;dominant-baseline:middle"><tspan font-style="italic">S. chattanoogensis</tspan><tspan> NRRL ISP-5002</tspan></text>
+<text x="227.930153232467" y="264.250135779698" transform="rotate(310.909090909091, 227.930153232467 264.250135779698)" style="font-size:20;text-anchor:middle;dominant-baseline:middle" >195</text>
+<ellipse cx="500" cy="300" rx="66" ry="220" style="fill:purple;fill-opacity:0.881818181818182" transform="rotate(327.272727272727, 500 500)" />
+<text x="262.118040319537" y="129.84844555428" transform="rotate(327.272727272727, 262.118040319537 129.84844555428)" style="font-size:18;text-anchor:middle;dominant-baseline:middle"><tspan font-style="italic">S. chattanoogensis</tspan><tspan> NRRL ISP-5002</tspan></text>
+<text x="305.369305715985" y="197.148728180775" transform="rotate(327.272727272727, 305.369305715985 197.148728180775)" style="font-size:20;text-anchor:middle;dominant-baseline:middle" >195</text>
+<ellipse cx="500" cy="300" rx="66" ry="220" style="fill:purple;fill-opacity:0.9" transform="rotate(343.636363636364, 500 500)" />
+<text x="376.037674989771" y="77.8230916096211" transform="rotate(343.636363636364, 376.037674989771 77.8230916096211)" style="font-size:18;text-anchor:middle;dominant-baseline:middle"><tspan font-style="italic">S. venezuelae</tspan><tspan> ATCC 10712</tspan></text>
+<text x="398.576279537085" y="154.582529498781" transform="rotate(343.636363636364, 398.576279537085 154.582529498781)" style="font-size:20;text-anchor:middle;dominant-baseline:middle" >195</text>
+<ellipse cx="500" cy="500" rx="60" ry="60" style="fill:purple;fill-opacity:1" />
+<text x="500" y="500" style="font-size:20;fill:yellow;fill-opacity:1;text-anchor:middle;dominant-baseline:middle" >5047</text>
+</svg>

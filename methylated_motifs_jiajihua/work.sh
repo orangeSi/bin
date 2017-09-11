@@ -1,0 +1,1 @@
+/ifshk7/BC_PS/yanglin1/Pipeline/Bacteria_Complete_Genome/Bacterial_Genome_Analysis_Pipeline_2016a/AnalysisModule/Modifications/bin/Modifications.pl --h5fofn input.fofn --reflst ass.list --outdir outdir --monitor --queue bc.q --project FUNrbjD --input Modifications.conf

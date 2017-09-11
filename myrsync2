@@ -1,0 +1,35 @@
+#!/bin/sh
+info="
+usage1:myrsync2 <sz/wh/qt> <one dir or file>  <target dir>
+usage2:myrsync2 <sz/wh/qt> <'multi dir or file'>  <target dir>" 
+
+if [ -z $3 ]
+then
+	echo "$info" && exit;
+
+fi
+passwd="qiutufF6";
+user="sikaiwei";
+echo "file:$2";
+if [ $1 = "sz" ]
+then
+	ip="192.168.9.102";
+elif [ $1 = "wh" ]
+then
+	ip="192.168.160.207";
+elif [ $1 = "qt" ]
+then
+	ip="172.16.59.32";
+	passwd="sikaiwei";
+	user="Administrator";
+elif [ $1 = "hk" ]
+then
+	ip="192.168.171.31";
+else
+	echo "$info" && exit
+fi
+echo "sshpass -p \"$passwd\" rsync -ar $user@$ip:$2 $3"
+sshpass -p "$passwd" rsync -ar $user@$ip:$2 $3 && echo "end"
+
+
+
